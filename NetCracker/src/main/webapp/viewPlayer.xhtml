@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title></title>
+</h:head>
+
+<h:body>
+	<h:outputLink value="playerList.xhtml">Show Players</h:outputLink>
+
+	<h:form id="teamBeanForm">
+		<br />
+		<p:dataTable var="player" value="#{playerBean.player}">
+			<f:facet name="header">
+				<h:outputText value="View Player"></h:outputText>
+			</f:facet>
+
+			<p:column>
+				<p:panelGrid>
+					<p:row>
+						<p:column>
+							Name
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.name}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Rating
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.overall}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Age
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.age}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Team
+						</p:column>
+						<p:column>
+							<h:commandLink id="viewteam" action="#{teamBean.viewTeamByName}">
+								<h:outputText value="#{player.team}" />
+								<f:setPropertyActionListener value="#{player.team}"
+									target="#{teamBean.team.name}" />
+							</h:commandLink>
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Position
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.position}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Country
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.country}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Foot
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.foot}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Number
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.number}" />
+						</p:column>
+					</p:row>
+
+				</p:panelGrid>
+			</p:column>
+		</p:dataTable>
+
+
+	</h:form>
+
+</h:body>
+
+</html>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title></title>
+</h:head>
+
+<h:body>
+	<h:outputLink value="teamList.xhtml">Show Teams</h:outputLink>
+
+	<h:form id="teamBeanForm">
+		<br />
+		<p:dataTable var="team" value="#{teamBean.team}">
+			<f:facet name="header">
+				<h:outputText value="View Team"></h:outputText>
+			</f:facet>
+
+			<p:column>
+				<p:panelGrid>
+					<p:row>
+						<p:column>
+							Name
+						</p:column>
+						<p:column>
+							<h:outputText value="#{team.name}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Stadium
+						</p:column>
+						<p:column>
+							<h:outputText value="#{team.stadium}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Founded
+						</p:column>
+						<p:column>
+							<h:outputText value="#{team.founded}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Rating
+						</p:column>
+						<p:column>
+							<h:outputText value="#{team.rating}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Attack
+						</p:column>
+						<p:column>
+							<h:outputText value="#{team.attack}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Midfield
+						</p:column>
+						<p:column>
+							<h:outputText value="#{team.midfield}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Defence
+						</p:column>
+						<p:column>
+							<h:outputText value="#{team.defence}" />
+						</p:column>
+					</p:row>
+
+				</p:panelGrid>
+			</p:column>
+		</p:dataTable>
+
+
+		<p:dataTable var="player" value="#{teamBean.players}">
+			<f:facet name="header">
+				<h:outputText value="Players in Team"></h:outputText>
+			</f:facet>
+
+			<p:column>
+				<p:panelGrid>
+					<p:row>
+						<p:column>
+							Name
+						</p:column>
+						<p:column>
+							<h:commandLink id="viewteam" action="#{playerBean.viewPlayer}">
+								<h:outputText value="#{player.name}" />
+								<f:setPropertyActionListener value="#{player.id}"
+									target="#{playerBean.player.id}" />
+							</h:commandLink>
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Rating
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.overall}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Age
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.age}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Team
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.team}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Position
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.position}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Country
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.country}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Foot
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.foot}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Number
+						</p:column>
+						<p:column>
+							<h:outputText value="#{player.number}" />
+						</p:column>
+					</p:row>
+
+				</p:panelGrid>
+			</p:column>
+		</p:dataTable>
+
+	</h:form>
+
+</h:body>
+
+</html>

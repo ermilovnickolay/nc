@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title></title>
+</h:head>
+
+<h:body>
+	<h:form>
+		<p:dataTable var="t" value="#{teamBean.teams}">
+			<p:column headerText="Name">
+				<h:commandLink id="viewteam" action="#{teamBean.viewTeam}">
+					<h:outputText value="#{t.name}" />
+					<f:setPropertyActionListener value="#{t.id}"
+						target="#{teamBean.team.id}" />
+				</h:commandLink>
+			</p:column>
+			<p:column headerText="Rating">
+				<h:outputText value="#{t.rating}" />
+			</p:column>
+			<p:column headerText="Stadium">
+				<h:outputText value="#{t.stadium}" />
+			</p:column>
+
+		</p:dataTable>
+	</h:form>
+
+</h:body>
+
+</html>
