@@ -24,6 +24,14 @@
 				<p:panelGrid>
 					<p:row>
 						<p:column>
+							Photo
+						</p:column>
+						<p:column>
+							<p:graphicImage value="#{player.image}" />						
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
 							Name
 						</p:column>
 						<p:column>
@@ -51,10 +59,10 @@
 							Team
 						</p:column>
 						<p:column>
-							<h:commandLink id="viewteam" action="#{teamBean.viewTeamByName}">
-								<h:outputText value="#{player.team}" />
-								<f:setPropertyActionListener value="#{player.team}"
-									target="#{teamBean.team.name}" />
+							<h:commandLink id="viewteam" action="#{teamBean.viewTeam}">
+								<h:outputText value="#{player.team.name}" />
+								<f:setPropertyActionListener value="#{player.team.id}"
+									target="#{teamBean.team.id}" />
 							</h:commandLink>
 						</p:column>
 					</p:row>
@@ -71,7 +79,7 @@
 							Country
 						</p:column>
 						<p:column>
-							<h:outputText value="#{player.country}" />
+							<h:outputText value="#{player.country.name}" />
 						</p:column>
 					</p:row>
 					<p:row>

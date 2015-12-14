@@ -1,0 +1,601 @@
+Team: Milan, Link: /team/47
+Team: FC Barcelona, Link: /team/241
+Team: Leicester City, Link: /team/95
+Team: Liverpool, Link: /team/9
+Team: Manchester United, Link: /team/11
+Team: Tottenham Hotspur, Link: /team/18
+Team: Real Madrid CF, Link: /team/243
+Team: FC Bayern Munich, Link: /team/21
+Team: Arsenal, Link: /team/1
+Team: Chelsea, Link: /team/5
+Team: Borussia Dortmund, Link: /team/22
+Team: Juventus, Link: /team/45
+Team: Inter, Link: /team/44
+Team: Manchester City, Link: /team/10
+Team: Paris Saint-Germain, Link: /team/73
+Team: Atlético Madrid, Link: /team/240
+Team: FC Schalke 04, Link: /team/34
+Team: Everton, Link: /team/7
+Team: West Ham United, Link: /team/19
+Team: Roma, Link: /team/52
+Team: Valencia CF, Link: /team/461
+Team: Bayer 04 Leverkusen, Link: /team/32
+Team: Napoli, Link: /team/48
+Team: Ajax, Link: /team/245
+Team: FC Porto, Link: /team/236
+Team: Olympique de Marseille, Link: /team/219
+Team: Olympique Lyonnais, Link: /team/66
+Team: Southampton, Link: /team/17
+Team: AS Monaco, Link: /team/69
+Team: Fiorentina, Link: /team/110374
+Team: Athletic Club de Bilbao, Link: /team/448
+Team: Borussia Mönchengladbach, Link: /team/23
+Team: Portsmouth, Link: /team/1790
+Team: Newcastle United, Link: /team/13
+Team: Stoke City, Link: /team/1806
+Team: VfL Wolfsburg, Link: /team/175
+Team: Sporting CP, Link: /team/237
+Team: Sevilla FC, Link: /team/481
+Team: SL Benfica, Link: /team/234
+Team: Santos Futebol Clube, Link: /team/1053
+Team: Lazio, Link: /team/46
+Team: Watford, Link: /team/1795
+Team: Sassuolo, Link: /team/111974
+Team: Sociedade Esportiva Palmeiras, Link: /team/383
+Team: Villarreal CF, Link: /team/483
+Team: Aston Villa, Link: /team/2
+Team: Queens Park Rangers, Link: /team/15
+Team: OGC Nice, Link: /team/72
+Team: Bilbao Athletic, Link: /team/110701
+Team: Shakhtar Donetsk, Link: /team/101059
+Team: Bournemouth, Link: /team/1943
+Team: RC Celta de Vigo, Link: /team/450
+Team: Crystal Palace, Link: /team/1799
+Team: São Paulo Futebol Clube, Link: /team/598
+Team: Genoa, Link: /team/110556
+Team: RB Leipzig, Link: /team/112172
+Team: Swansea City, Link: /team/1960
+Team: Hamburger SV, Link: /team/28
+Team: TSG 1899 Hoffenheim, Link: /team/10029
+Team: Real Betis Balompié, Link: /team/449
+Team: Paris FC, Link: /team/111817
+Team: PSV, Link: /team/247
+Team: Nottingham Forest, Link: /team/14
+Team: Boca Juniors, Link: /team/1877
+Team: West Bromwich Albion, Link: /team/109
+Team: Leeds United, Link: /team/8
+Team: Hertha BSC Berlin, Link: /team/166
+Team: Torino, Link: /team/54
+Team: Real Sociedad, Link: /team/457
+Team: Hull City, Link: /team/1952
+Team: Galatasaray SK, Link: /team/325
+Team: Sunderland, Link: /team/106
+Team: RSC Anderlecht, Link: /team/229
+Team: Stade Rennais FC, Link: /team/74
+Team: Fulham, Link: /team/144
+Team: Empoli, Link: /team/1746
+Team: Fenerbahçe SK, Link: /team/326
+Team: Norwich City, Link: /team/1792
+Team: Vitesse, Link: /team/1909
+Team: SV Werder Bremen, Link: /team/38
+Team: Real Sporting de Gijón, Link: /team/459
+Team: AS Saint-Étienne, Link: /team/1819
+Team: Málaga CF, Link: /team/573
+Team: Feyenoord, Link: /team/246
+Team: Zenit St. Petersburg, Link: /team/100769
+Team: LOSC Lille, Link: /team/65
+Team: VfB Stuttgart, Link: /team/36
+Team: Udinese, Link: /team/55
+Team: Derby County, Link: /team/91
+Team: Beşiktaş JK, Link: /team/327
+Team: Sport Club Internacional, Link: /team/1048
+Team: River Plate, Link: /team/1876
+Team: Palermo, Link: /team/1843
+Team: Bologna, Link: /team/189
+Team: New York City Football Club, Link: /team/112828
+Team: Sampdoria, Link: /team/1837
+Team: Red Star FC, Link: /team/111273
+Team: 1. FC Köln, Link: /team/31
+Team: Girondins de Bordeaux, Link: /team/59
+Team: SD Eibar, Link: /team/467
+Team: FC Twente, Link: /team/1908
+Team: 1860 München, Link: /team/33
+Team: Wolverhampton Wanderers, Link: /team/110
+Team: Tigres U.A.N.L., Link: /team/1970
+Team: Middlesbrough, Link: /team/12
+Team: Granada CF, Link: /team/110832
+Team: Wigan Athletic, Link: /team/1917
+Team: FC Basel, Link: /team/896
+Team: RC Deportivo de La Coruña, Link: /team/242
+Team: SC Freiburg, Link: /team/25
+Team: Burnley, Link: /team/1796
+Team: RCD Espanyol, Link: /team/452
+Team: Brighton & Hove Albion, Link: /team/1808
+Team: Coventry City, Link: /team/1800
+Team: FC Ingolstadt 04, Link: /team/111239
+Team: Cagliari, Link: /team/1842
+Team: Sheffield Wednesday, Link: /team/1807
+Team: Club América, Link: /team/1879
+Team: 1. FSV Mainz 05, Link: /team/169
+Team: FC Red Bull Salzburg, Link: /team/191
+Team: Celtic, Link: /team/78
+Team: Grêmio Foot-Ball Porto Alegrense, Link: /team/1629
+Team: Frosinone, Link: /team/111657
+Team: Eintracht Frankfurt, Link: /team/1824
+Team: Clube Atlético Mineiro, Link: /team/1035
+Team: Cardiff City, Link: /team/1961
+Team: Fluminense Football Club, Link: /team/567
+Team: Reading, Link: /team/1793
+Team: FC Lorient, Link: /team/217
+Team: Associação Atlética Ponte Preta, Link: /team/111043
+Team: Cruzeiro, Link: /team/568
+Team: Hellas Verona, Link: /team/206
+Team: SV Darmstadt 98, Link: /team/110502
+Team: LA Galaxy, Link: /team/697
+Team: Olympiakos CFP, Link: /team/280
+Team: New York Red Bulls, Link: /team/689
+Team: Hannover 96, Link: /team/485
+Team: Levante UD, Link: /team/1853
+Team: Club de Regatas Vasco da Gama, Link: /team/569
+Team: Sheffield United, Link: /team/1794
+Team: Toulouse FC, Link: /team/1809
+Team: SC Braga, Link: /team/1896
+Team: Blackburn Rovers, Link: /team/3
+Team: Birmingham City, Link: /team/88
+Team: Rayo Vallecano, Link: /team/480
+Team: Atalanta, Link: /team/39
+Team: Spartak Moscow, Link: /team/100767
+Team: CSKA Moscow, Link: /team/315
+Team: Milton Keynes Dons, Link: /team/1798
+Team: Bolton Wanderers, Link: /team/4
+Team: Jagiellonia Białystok, Link: /team/110745
+Team: Guadalajara, Link: /team/1880
+Team: Monterrey, Link: /team/1032
+Team: Notts County, Link: /team/1937
+Team: Lech Poznań, Link: /team/873
+Team: Club Brugge KV, Link: /team/231
+Team: SM Caen, Link: /team/210
+Team: Charlton Athletic, Link: /team/89
+Team: Seattle Sounders FC, Link: /team/111144
+Team: Columbus Crew SC, Link: /team/687
+Team: Plymouth Argyle, Link: /team/1929
+Team: Portland Timbers, Link: /team/111140
+Team: KAA Gent, Link: /team/674
+Team: FC St. Pauli, Link: /team/110329
+Team: Legia Warszawa, Link: /team/1871
+Team: Bristol City, Link: /team/1919
+Team: FC Augsburg, Link: /team/100409
+Team: Real Zaragoza, Link: /team/244
+Team: Carpi, Link: /team/112409
+Team: Rosenborg BK, Link: /team/298
+Team: FC Dallas, Link: /team/695
+Team: Crewe Alexandra, Link: /team/121
+Team: Leyton Orient, Link: /team/1958
+Team: U.N.A.M., Link: /team/1881
+Team: Standard de Liège, Link: /team/232
+Team: Angers SCO, Link: /team/1530
+Team: AFC Wimbledon, Link: /team/112259
+Team: Getafe CF, Link: /team/1860
+Team: KRC Genk, Link: /team/673
+Team: Montpellier Hérault SC, Link: /team/70
+Team: AZ, Link: /team/1906
+Team: Ipswich Town, Link: /team/94
+Team: Cesena, Link: /team/110915
+Team: Dinamo Moscow, Link: /team/312
+Team: Accrington Stanley, Link: /team/110313
+Team: Real Valladolid, Link: /team/462
+Team: UD Las Palmas, Link: /team/472
+Team: Panathinaikos FC, Link: /team/1884
+Team: RCD Mallorca, Link: /team/453
+Team: Bristol Rovers, Link: /team/1962
+Team: Toronto FC, Link: /team/111651
+Team: 1. FC Kaiserslautern, Link: /team/29
+Team: FC Nantes, Link: /team/71
+Team: SC Heerenveen, Link: /team/1913
+Team: Orlando City Soccer Club, Link: /team/112606
+Team: Barnsley, Link: /team/1932
+Team: San Lorenzo de Almagro, Link: /team/1013
+Team: FC København, Link: /team/819
+Team: Chievo Verona, Link: /team/192
+Team: Millwall, Link: /team/97
+Team: Rotherham United, Link: /team/1797
+Team: Clube Atlético Paranaense, Link: /team/1039
+Team: 1. FC Nürnberg, Link: /team/171
+Team: Real Oviedo, Link: /team/110827
+Team: GFC Ajaccio, Link: /team/110316
+Team: Luton Town, Link: /team/1923
+Team: Peterborough United, Link: /team/1938
+Team: Trabzonspor, Link: /team/436
+Team: Deportivo Toluca, Link: /team/1882
+Team: Racing Club, Link: /team/101085
+Team: FC Metz, Link: /team/68
+Team: Brentford, Link: /team/1925
+Team: N.E.C., Link: /team/1910
+Team: CA Osasuna, Link: /team/479
+Team: Pescara, Link: /team/200
+Team: Preston North End, Link: /team/1801
+Team: FC Sochaux-Montbéliard, Link: /team/226
+Team: Bradford City, Link: /team/1804
+Team: RC Lens, Link: /team/64
+Team: Antalyaspor, Link: /team/741
+Team: FC Midtjylland, Link: /team/1516
+Team: Pachuca, Link: /team/110147
+Team: Southend United, Link: /team/1954
+Team: Fortuna Düsseldorf, Link: /team/110636
+Team: Independiente, Link: /team/110093
+Team: Oxford United, Link: /team/1951
+Team: Bursaspor, Link: /team/742
+Team: Vitória Guimarães, Link: /team/1887
+Team: Colo-Colo, Link: /team/110980
+Team: VfL Bochum, Link: /team/160
+Team: AJ Auxerre, Link: /team/57
+Team: PAOK, Link: /team/393
+Team: FC Groningen, Link: /team/1915
+Team: Blackpool, Link: /team/1926
+Team: Lokomotiv Moscow, Link: /team/100765
+Team: Dundee United, Link: /team/181
+Team: Club León, Link: /team/110781
+Team: Shrewsbury, Link: /team/127
+Team: Cruz Azul, Link: /team/1878
+Team: Santos Laguna, Link: /team/110144
+Team: UD Almería, Link: /team/1861
+Team: Bari, Link: /team/1848
+Team: Montreal Impact, Link: /team/111139
+Team: Newport County, Link: /team/112254
+Team: York City, Link: /team/1948
+Team: Brøndby IF, Link: /team/269
+Team: SC Bastia, Link: /team/58
+Team: Malmö FF, Link: /team/320
+Team: Huddersfield Town, Link: /team/1939
+Team: Walsall, Link: /team/1803
+Team: Rosario Central, Link: /team/110580
+Team: Gillingham, Link: /team/1802
+Team: AS Nancy-Lorraine, Link: /team/1823
+Team: Querétaro, Link: /team/110150
+Team: Barnet, Link: /team/135
+Team: CF Os Belenenses, Link: /team/1889
+Team: Livorno, Link: /team/1844
+Team: ES Troyes AC, Link: /team/294
+Team: Grasshopper Club Zürich, Link: /team/322
+Team: Club Atlas, Link: /team/101114
+Team: Crawley Town, Link: /team/110890
+Team: Doncaster Rovers, Link: /team/142
+Team: CD Tenerife, Link: /team/260
+Team: Bury, Link: /team/1945
+Team: Yeovil Town, Link: /team/346
+Team: PEC Zwolle, Link: /team/1914
+Team: En Avant de Guingamp, Link: /team/62
+Team: SC Paderborn 07, Link: /team/10030
+Team: Wycombe Wanderers, Link: /team/1933
+Team: Coritiba Foot Ball Club, Link: /team/111044
+Team: Dagenham and Redbridge, Link: /team/373
+Team: Chesterfield, Link: /team/1924
+Team: Cambridge United, Link: /team/1944
+Team: FK Austria Wien, Link: /team/256
+Team: SpVgg Greuther Fürth, Link: /team/165
+Team: FC Utrecht, Link: /team/1903
+Team: MSV Duisburg, Link: /team/1825
+Team: Córdoba CF, Link: /team/1867
+Team: Vancouver Whitecaps FC, Link: /team/101112
+Team: Jaguares de Chiapas, Link: /team/112679
+Team: Northampton Town, Link: /team/1930
+Team: FSV Frankfurt, Link: /team/110596
+Team: FC Krasnodar, Link: /team/112218
+Team: Girona CF, Link: /team/110062
+Team: Molde FK, Link: /team/417
+Team: Associação Chapecoense de Futebol, Link: /team/112476
+Team: Newell's Old Boys, Link: /team/110396
+Team: 1. FC Union Berlin, Link: /team/1831
+Team: Brescia, Link: /team/190
+Team: Al Hilal, Link: /team/605
+Team: Swindon Town, Link: /team/1934
+Team: SK Sturm Graz, Link: /team/209
+Team: Vélez Sarsfield, Link: /team/101088
+Team: Rubin Kazan, Link: /team/110227
+Team: FC Anzhi Makhachkala, Link: /team/100766
+Team: Joinville Esporte Clube, Link: /team/111054
+Team: Estoril Praia, Link: /team/10020
+Team: BSC Young Boys, Link: /team/900
+Team: Stade de Reims, Link: /team/379
+Team: Dijon FCO, Link: /team/110569
+Team: Fleetwood Town, Link: /team/112260
+Team: Dijon FCO, Link: /team/110569
+Team: SK Rapid Wien, Link: /team/254
+Team: Figueirense Futebol Clube, Link: /team/111045
+Team: Sint-Truidense VV, Link: /team/680
+Team: CD Nacional, Link: /team/1891
+Team: Willem II, Link: /team/1907
+Team: Al Ahli, Link: /team/112387
+Team: AC Ajaccio, Link: /team/614
+Team: Le Havre AC, Link: /team/1738
+Team: Orlando Pirates, Link: /team/110930
+Team: Club Tijuana, Link: /team/111678
+Team: Como, Link: /team/1745
+Team: Mansfield Town, Link: /team/1940
+Team: Avaí Futebol Clube, Link: /team/111976
+Team: Évian Thonon Gaillard FC, Link: /team/111271
+Team: Karlsruher SC, Link: /team/1832
+Team: Stevenage, Link: /team/361
+Team: Eintracht Braunschweig, Link: /team/110500
+Team: Puebla, Link: /team/110152
+Team: FC Paços de Ferreira, Link: /team/1892
+Team: Universidad de Chile, Link: /team/15029
+Team: Jeonnam Dragons, Link: /team/1475
+Team: Oldham Athletic, Link: /team/1920
+Team: SV Zulte-Waregem, Link: /team/15005
+Team: Crotone, Link: /team/110734
+Team: Vitória Setúbal, Link: /team/665
+Team: Aberdeen, Link: /team/77
+Team: Moreirense FC, Link: /team/1900
+Team: La Spezia, Link: /team/110741
+Team: FC Zürich, Link: /team/894
+Team: Exeter City, Link: /team/143
+Team: Elche CF, Link: /team/468
+Team: Colchester United, Link: /team/1935
+Team: Pogoń Szczecin, Link: /team/110746
+Team: Carlisle United, Link: /team/1480
+Team: Boavista FC, Link: /team/1898
+Team: Valenciennes FC, Link: /team/110456
+Team: Port Vale, Link: /team/1928
+Team: CS Marítimo, Link: /team/1893
+Team: Heracles Almelo, Link: /team/100634
+Team: Tiburones Rojos de Veracruz, Link: /team/110145
+Team: Novara, Link: /team/112225
+Team: Rio Ave FC, Link: /team/744
+Team: Lechia Gdańsk, Link: /team/111091
+Team: FC Sion, Link: /team/110770
+Team: Deportivo Alavés, Link: /team/463
+Team: Morecambe, Link: /team/357
+Team: San Jose Earthquakes, Link: /team/111928
+Team: Cracovia, Link: /team/110747
+Team: Kaizer Chiefs, Link: /team/110929
+Team: DSC Arminia Bielefeld, Link: /team/159
+Team: Heart of Midlothian, Link: /team/80
+Team: Perugia, Link: /team/199
+Team: Melbourne Victory, Link: /team/111397
+Team: Stade Lavallois Mayenne FC, Link: /team/1814
+Team: Nîmes Olympique, Link: /team/224
+Team: Aarhus GF, Link: /team/271
+Team: Burton Albion, Link: /team/15015
+Team: 1. FC Heidenheim, Link: /team/111235
+Team: SD Ponferradina, Link: /team/2023
+Team: Tondela, Link: /team/112516
+Team: KV Oostende, Link: /team/682
+Team: Scunthorpe United, Link: /team/1949
+Team: Wisła Kraków, Link: /team/1873
+Team: Sporting Kansas City, Link: /team/696
+Team: Jeonbuk Hyundai Motors, Link: /team/1477
+Team: Al Ittihad, Link: /team/607
+Team: Strømsgodset IF, Link: /team/922
+Team: Clermont Foot 63, Link: /team/1815
+Team: Piast Gliwice, Link: /team/111086
+Team: Rochdale, Link: /team/1955
+Team: Sporting Charleroi, Link: /team/670
+Team: CD Numancia, Link: /team/477
+Team: Gimnàstic de Tarragona, Link: /team/15019
+Team: SV Sandhausen, Link: /team/110178
+Team: Stabæk Fotball, Link: /team/917
+Team: Dorados de Sinaloa, Link: /team/111032
+Team: UE Llagostera, Link: /team/112902
+Team: US Créteil-Lusitanos, Link: /team/1812
+Team: Atlético Nacional, Link: /team/101100
+Team: CD Leganés, Link: /team/100888
+Team: ADO Den Haag, Link: /team/650
+Team: Monarcas Morelia, Link: /team/1028
+Team: IFK Göteborg, Link: /team/319
+Team: Deportivo Cali, Link: /team/101102
+Team: Bourg-en-Bresse Péronnas 01, Link: /team/110576
+Team: Madeira, Link: /team/112517
+Team: Vercelli, Link: /team/112398
+Team: FC Krylya Sovetov Samara, Link: /team/100764
+Team: Royal Excel Mouscron, Link: /team/111560
+Team: AIK, Link: /team/433
+Team: KV Mechelen, Link: /team/110724
+Team: Kuban Krasnodar, Link: /team/110089
+Team: Odds BK, Link: /team/1456
+Team: Universidad Católica, Link: /team/110975
+Team: Canada, Link: /team/111455
+Team: De Graafschap, Link: /team/635
+Team: Salerno, Link: /team/110373
+Team: Club Atlético Lanús, Link: /team/110395
+Team: Club Atlético Lanús, Link: /team/110395
+Team: Académica de Coimbra, Link: /team/1901
+Team: Chamois Niortais FC, Link: /team/1813
+Team: Terni, Link: /team/570
+Team: Kalmar FF, Link: /team/1439
+Team: Chiavari, Link: /team/112495
+Team: Roda JC Kerkrade, Link: /team/1902
+Team: SD Huesca, Link: /team/110839
+Team: Avellino, Link: /team/2038
+Team: FC Ural, Link: /team/111264
+Team: FC Nordsjælland, Link: /team/1788
+Team: Independiente Medellín, Link: /team/101103
+Team: Stade Brestois 29, Link: /team/378
+Team: IF Elfsborg, Link: /team/700
+Team: CD Lugo, Link: /team/110831
+Team: Chicago Fire Soccer Club, Link: /team/693
+Team: Tours FC, Link: /team/110326
+Team: Al Nassr, Link: /team/112139
+Team: Vålerenga Fotball, Link: /team/920
+Team: Terek Grozny, Link: /team/110109
+Team: Colorado Rapids, Link: /team/694
+Team: FC Ufa, Link: /team/110822
+Team: Millonarios FC, Link: /team/101105
+Team: Latina, Link: /team/112487
+Team: Ruch Chorzów, Link: /team/874
+Team: Excelsior, Link: /team/1971
+Team: FC Arouca, Link: /team/112513
+Team: Estudiantes de La Plata, Link: /team/101083
+Team: Melbourne City, Link: /team/112224
+Team: FC Rostov, Link: /team/110231
+Team: Sarpsborg 08 FF, Link: /team/112199
+Team: Houston Dynamo, Link: /team/698
+Team: Brisbane Roar, Link: /team/111395
+Team: Kasimpaşa SK, Link: /team/111339
+Team: Osmanlıspor, Link: /team/112958
+Team: Viking FK, Link: /team/300
+Team: Mordovia Saransk, Link: /team/110106
+Team: Sporting Lokeren, Link: /team/2007
+Team: Waasland-Beveren, Link: /team/110913
+Team: Hobro IK, Link: /team/112425
+Team: Termalica Bruk-Bet Nieciecza, Link: /team/112510
+Team: AD Alcorcón, Link: /team/100831
+Team: D.C. United, Link: /team/688
+Team: Podbeskidzie Bielsko-Biała, Link: /team/111087
+Team: Aalborg BK, Link: /team/820
+Team: Gençlerbirliği SK, Link: /team/101025
+Team: IK Start, Link: /team/1524
+Team: Hamilton Academical FC, Link: /team/184
+Team: KV Kortrijk, Link: /team/100081
+Team: Banfield, Link: /team/110404
+Team: Aalborg BK, Link: /team/820
+Team: Gençlerbirliği SK, Link: /team/101025
+Team: IK Start, Link: /team/1524
+Team: Hamilton Academical FC, Link: /team/184
+Team: Bray Wanderers, Link: /team/838
+Team: IFK Norrköping, Link: /team/702
+Team: Belgrano de Córdoba, Link: /team/111022
+Team: Sydney FC, Link: /team/111400
+Team: FC Seoul, Link: /team/982
+Team: Pohang Steelers, Link: /team/1474
+Team: BK Häcken, Link: /team/711
+Team: Helsingborgs IF, Link: /team/432
+Team: New England Revolution, Link: /team/691
+Team: Śląsk Wrocław, Link: /team/111092
+Team: Górnik Łęczna, Link: /team/110565
+Team: Al Taawoun, Link: /team/112393
+Team: Ulsan Hyundai Horang-i, Link: /team/1473
+Team: Club Atlético Tigre, Link: /team/111715
+Team: KVC Westerlo, Link: /team/681
+Team: Real Salt Lake, Link: /team/111065
+Team: Medipol Başakşehir FK, Link: /team/101014
+Team: Shamrock Rovers, Link: /team/306
+Team: Audax Italiano, Link: /team/101097
+Team: Wellington Phoenix, Link: /team/111766
+Team: Medicana Sivasspor, Link: /team/101041
+Team: Once Caldas, Link: /team/101106
+Team: Górnik Zabrze, Link: /team/420
+Team: FC St. Gallen, Link: /team/898
+Team: Amkar Perm, Link: /team/110234
+Team: Akhisar Belediyespor, Link: /team/111340
+Team: Ascoli, Link: /team/1846
+Team: SCR Altach, Link: /team/15009
+Team: FC Luzern, Link: /team/897
+Team: Philadelphia Union, Link: /team/112134
+Team: Central Coast Mariners, Link: /team/111396
+Team: Modena, Link: /team/1744
+Team: Çaykur Rizespor, Link: /team/101037
+Team: Vicenza, Link: /team/1847
+Team: Randers FC, Link: /team/1786
+Team: Aalesunds FK, Link: /team/1755
+Team: Kayserispor, Link: /team/101020
+Team: SV Mattersburg, Link: /team/1785
+Team: Suwon Samsung Bluewings, Link: /team/983
+Team: Daejeon Citizen, Link: /team/980
+Team: Torku Konyaspor, Link: /team/101033
+Team: Motherwell, Link: /team/83
+Team: Seongnam FC, Link: /team/981
+Team: SV Grödig, Link: /team/112022
+Team: Gaziantepspor, Link: /team/101024
+Team: Independiente Santa Fe, Link: /team/101104
+Team: Motherwell, Link: /team/83
+Team: Seongnam FC, Link: /team/981
+Team: SV Grödig, Link: /team/112022
+Team: Gaziantepspor, Link: /team/101024
+Team: Independiente Santa Fe, Link: /team/101104
+Team: Eskişehirspor, Link: /team/111988
+Team: FC Admira Wacker Mödling, Link: /team/111821
+Team: FK Haugesund, Link: /team/1463
+Team: Lanciano, Link: /team/112020
+Team: Esbjerg fB, Link: /team/1445
+Team: Western Sydney Wanderers, Link: /team/112427
+Team: Al Shabab, Link: /team/111674
+Team: Oud-Heverlee Leuven, Link: /team/100087
+Team: Zagłębie Lubin, Link: /team/110749
+Team: Korona Kielce, Link: /team/111083
+Team: Hammarby IF, Link: /team/708
+Team: Trapani, Link: /team/112410
+Team: Mjøndalen IF, Link: /team/112420
+Team: Junior FC, Link: /team/101101
+Team: Argentinos Juniors, Link: /team/111019
+Team: Perth Glory, Link: /team/111399
+Team: Djurgårdens IF, Link: /team/710
+Team: Falkenbergs FF, Link: /team/112169
+Team: Drogheda United, Link: /team/1572
+Team: Adelaide United, Link: /team/111393
+Team: CD Palestino, Link: /team/111328
+Team: Wolfsberger AC, Link: /team/111822
+Team: FK Bodø/Glimt, Link: /team/918
+Team: Sandefjord Fotball, Link: /team/1757
+Team: Limerick FC, Link: /team/111285
+Team: Åtvidabergs FF, Link: /team/111835
+Team: Mersin İdman Yurdu, Link: /team/101036
+Team: Envigado FC, Link: /team/112526
+Team: CD O'Higgins, Link: /team/112116
+Team: Örebro SK, Link: /team/705
+Team: Godoy Cruz, Link: /team/111706
+Team: Sarandí, Link: /team/110394
+Team: G. La Plata, Link: /team/101084
+Team: SV Josko Ried, Link: /team/780
+Team: Deportes Tolima, Link: /team/111722
+Team: SønderjyskE, Link: /team/1447
+Team: Unión Española, Link: /team/110977
+Team: Viborg FF, Link: /team/1443
+Team: Kilmarnock, Link: /team/82
+Team: Jeju United FC, Link: /team/1478
+Team: St. Johnstone FC, Link: /team/100804
+Team: Newcastle Jets, Link: /team/111398
+Team: Santiago Wanderers, Link: /team/110976
+Team: Mar del Plata, Link: /team/111707
+Team: Unión La Calera, Link: /team/112535
+Team: CD Huachipato, Link: /team/111327
+Team: Parque Patricios, Link: /team/111711
+Team: Gefle IF, Link: /team/111277
+Team: Mataderos, Link: /team/112925
+Team: Jaguares Fútbol Club, Link: /team/112903
+Team: Busan IPark, Link: /team/1476
+Team: Dundee FC, Link: /team/180
+Team: Halmstads BK, Link: /team/321
+Team: GIF Sundsvall, Link: /team/1596
+Team: Galway United, Link: /team/1571
+Team: Rafaela, Link: /team/110392
+Team: Incheon United FC, Link: /team/110765
+Team: Águilas Doradas, Link: /team/112578
+Team: Derry City, Link: /team/445
+Team: Atlético Huila, Link: /team/112528
+Team: La Equidad, Link: /team/112523
+Team: Cork City, Link: /team/422
+Team: Santa Fe, Link: /team/110406
+Team: Bohemian FC, Link: /team/305
+Team: Hajer, Link: /team/112394
+Team: Ross County FC, Link: /team/631
+Team: Posadas, Link: /team/112909
+Team: FC Thun, Link: /team/1715
+Team: San Luis de Quillota, Link: /team/112668
+Team: CD Universidad de Concepción, Link: /team/112534
+Team: Inverness Caledonian Thistle, Link: /team/620
+Team: CD Cobresal, Link: /team/110978
+Team: Dundalk, Link: /team/837
+Team: Al Raed, Link: /team/112392
+Team: Al Faisaly, Link: /team/112389
+Team: San Juan, Link: /team/111713
+Team: Uniautónoma FC, Link: /team/112830
+Team: Deportivo San Marcos de Arica, Link: /team/112586
+Team: Corporación Club Deportivo Tuluá, Link: /team/112934
+Team: Al Wehda, Link: /team/112408
+Team: Temperley, Link: /team/112904
+Team: Junín, Link: /team/112713
+Team: St. Patrick's Athletic, Link: /team/423
+Team: GwangJu FC, Link: /team/112258
+Team: Bahía Blanca, Link: /team/110398
+Team: Patriotas Boyacá FC, Link: /team/112527
+Team: Cúcuta Deportivo, Link: /team/111721
+Team: Alianza Petrolera, Link: /team/112579
+Team: Sligo Rovers, Link: /team/563
+Team: Al Fateh, Link: /team/112390
+Team: Deportes Iquique, Link: /team/112531
+Team: Al Khaleej, Link: /team/112883
+Team: Deportivo Pasto, Link: /team/111723
+Team: Al Qadisiyah, Link: /team/112391
+Team: CD Antofagasta, Link: /team/112533
+Total teams: 600

@@ -1,15 +1,21 @@
 package com.netcracker.football.entity;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Player")
-public class Player {
+@Table(name = "player")
+public class Player implements Serializable {
+
+	private static final long serialVersionUID = -3052157917914499179L;
 
 	@Id
 	@Column(unique = true)
@@ -24,8 +30,8 @@ public class Player {
 	@Column(name = "POSITION", length = 50)
 	private String position;
 
-	@Column(name = "ÑOUNTRY", length = 100)
-	private String country;
+	@Column(name = "PLAYER_NUMBER")
+	private Integer number;
 
 	@Column(name = "OVERALL")
 	private Integer overall;
@@ -33,31 +39,39 @@ public class Player {
 	@Column(name = "FOOT", length = 50)
 	private String foot;
 
-	@Column(name = "TEAM", length = 100)
-	private String team;
+	@Column(name = "IMAGE", length = 100)
+	private String image;
 
-	@Column(name = "PLAYER_NUMBER")
-	private Integer number;
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "TEAM_ID", nullable = false)
+	private Team team;
 
-	public Player(String name, String age, String position,
-			String country, Integer overall, String foot, String team,
-			Integer number) {
-		super();
-		this.name = name;
-		this.age = age;
-		this.position = position;
-		this.country = country;
-		this.overall = overall;
-		this.foot = foot;
-		this.team = team;
-		this.number = number;
-	}
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "COUNTRY_ID", nullable = false)
+	private Country country;
+
+	@OneToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "ATRIBUTE_ID", nullable = false)
+	private PlayerAttributes playerAttributes;
 
 	public Player() {
 	}
 
-	public String getName() {
-		return name;
+	public Player(String id, String name, String age, String position,
+			Integer number, Integer overall, String foot, Team team,
+			Country country, String image, PlayerAttributes playerAttributes) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.position = position;
+		this.number = number;
+		this.overall = overall;
+		this.foot = foot;
+		this.team = team;
+		this.country = country;
+		this.image = image;
+		this.playerAttributes = playerAttributes;
 	}
 
 	public String getId() {
@@ -66,6 +80,10 @@ public class Player {
 
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	public String getName() {
+		return name;
 	}
 
 	public void setName(String name) {
@@ -88,12 +106,12 @@ public class Player {
 		this.position = position;
 	}
 
-	public String getCountry() {
-		return country;
+	public Integer getNumber() {
+		return number;
 	}
 
-	public void setCountry(String country) {
-		this.country = country;
+	public void setNumber(Integer number) {
+		this.number = number;
 	}
 
 	public Integer getOverall() {
@@ -112,95 +130,36 @@ public class Player {
 		this.foot = foot;
 	}
 
-	public String getTeam() {
+	public Team getTeam() {
 		return team;
 	}
 
-	public void setTeam(String team) {
-		this.team = team;
+	public void setTeam(Team club) {
+		this.team = club;
 	}
 
-	public Integer getNumber() {
-		return number;
+	public Country getCountry() {
+		return country;
 	}
 
-	public void setNumber(Integer number) {
-		this.number = number;
+	public String getImage() {
+		return image;
 	}
 
-	@Override
-	public String toString() {
-		return "Player [name=" + name + ", age=" + age + ", position="
-				+ position + ", country=" + country + ", overall=" + overall
-				+ ", foot=" + foot + ", team=" + team + ", number=" + number
-				+ "]";
+	public void setImage(String image) {
+		this.image = image;
 	}
 
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((age == null) ? 0 : age.hashCode());
-		result = prime * result + ((country == null) ? 0 : country.hashCode());
-		result = prime * result + ((foot == null) ? 0 : foot.hashCode());
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result + ((number == null) ? 0 : number.hashCode());
-		result = prime * result + ((overall == null) ? 0 : overall.hashCode());
-		result = prime * result
-				+ ((position == null) ? 0 : position.hashCode());
-		result = prime * result + ((team == null) ? 0 : team.hashCode());
-		return result;
+	public void setCountry(Country country) {
+		this.country = country;
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Player other = (Player) obj;
-		if (age == null) {
-			if (other.age != null)
-				return false;
-		} else if (!age.equals(other.age))
-			return false;
-		if (country == null) {
-			if (other.country != null)
-				return false;
-		} else if (!country.equals(other.country))
-			return false;
-		if (foot == null) {
-			if (other.foot != null)
-				return false;
-		} else if (!foot.equals(other.foot))
-			return false;
-		if (name == null) {
-			if (other.name != null)
-				return false;
-		} else if (!name.equals(other.name))
-			return false;
-		if (number == null) {
-			if (other.number != null)
-				return false;
-		} else if (!number.equals(other.number))
-			return false;
-		if (overall == null) {
-			if (other.overall != null)
-				return false;
-		} else if (!overall.equals(other.overall))
-			return false;
-		if (position == null) {
-			if (other.position != null)
-				return false;
-		} else if (!position.equals(other.position))
-			return false;
-		if (team == null) {
-			if (other.team != null)
-				return false;
-		} else if (!team.equals(other.team))
-			return false;
-		return true;
+	public PlayerAttributes getPlayerAttributes() {
+		return playerAttributes;
 	}
+
+	public void setPlayerAttributes(PlayerAttributes playerAttributes) {
+		this.playerAttributes = playerAttributes;
+	}
+
 }

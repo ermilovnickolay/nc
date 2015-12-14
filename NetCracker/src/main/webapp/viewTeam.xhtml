@@ -24,6 +24,14 @@
 				<p:panelGrid>
 					<p:row>
 						<p:column>
+							Photo
+						</p:column>
+						<p:column>
+							<p:graphicImage value="#{team.image}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
 							Name
 						</p:column>
 						<p:column>
@@ -36,14 +44,6 @@
 						</p:column>
 						<p:column>
 							<h:outputText value="#{team.stadium}" />
-						</p:column>
-					</p:row>
-					<p:row>
-						<p:column>
-							Founded
-						</p:column>
-						<p:column>
-							<h:outputText value="#{team.founded}" />
 						</p:column>
 					</p:row>
 					<p:row>
@@ -121,42 +121,10 @@
 					</p:row>
 					<p:row>
 						<p:column>
-							Team
-						</p:column>
-						<p:column>
-							<h:outputText value="#{player.team}" />
-						</p:column>
-					</p:row>
-					<p:row>
-						<p:column>
 							Position
 						</p:column>
 						<p:column>
 							<h:outputText value="#{player.position}" />
-						</p:column>
-					</p:row>
-					<p:row>
-						<p:column>
-							Country
-						</p:column>
-						<p:column>
-							<h:outputText value="#{player.country}" />
-						</p:column>
-					</p:row>
-					<p:row>
-						<p:column>
-							Foot
-						</p:column>
-						<p:column>
-							<h:outputText value="#{player.foot}" />
-						</p:column>
-					</p:row>
-					<p:row>
-						<p:column>
-							Number
-						</p:column>
-						<p:column>
-							<h:outputText value="#{player.number}" />
 						</p:column>
 					</p:row>
 

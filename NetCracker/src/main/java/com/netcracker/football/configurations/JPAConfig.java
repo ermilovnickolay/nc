@@ -2,6 +2,7 @@ package com.netcracker.football.configurations;
 
 import java.util.Properties;
 
+import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,9 +17,6 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import javax.persistence.EntityManagerFactory;
-
-
 @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence.properties" })
@@ -31,39 +29,43 @@ public class JPAConfig {
 	@Bean
 	DataSource dataSource() {
 		final DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName(environment.getProperty("driverClassName"));
-        dataSource.setUrl(environment.getProperty("url"));
-        dataSource.setUsername(environment.getProperty("user"));
-        dataSource.setPassword(environment.getProperty("pass"));
+		dataSource.setDriverClassName(environment
+				.getProperty("driverClassName"));
+		dataSource.setUrl(environment.getProperty("url"));
+		dataSource.setUsername(environment.getProperty("user"));
+		dataSource.setPassword(environment.getProperty("pass"));
 
-        return dataSource;
+		return dataSource;
 	}
 
 	@Bean
-    public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
-        final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
-        em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "com.netcracker.football.entity" });
+	public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
+		final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
+		em.setDataSource(dataSource());
+		em.setPackagesToScan(new String[] { "com.netcracker.football.entity" });
 
-        final HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
-        em.setJpaVendorAdapter(vendorAdapter);
-        em.setJpaProperties(additionalProperties());
+		final HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
+		em.setJpaVendorAdapter(vendorAdapter);
+		em.setJpaProperties(additionalProperties());
 
-        return em;
-    }
+		return em;
+	}
 
 	@Bean
-	JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
+	JpaTransactionManager transactionManager(
+			EntityManagerFactory entityManagerFactory) {
 		JpaTransactionManager transactionManager = new JpaTransactionManager();
 		transactionManager.setEntityManagerFactory(entityManagerFactory);
 		return transactionManager;
 	}
-	
+
 	final Properties additionalProperties() {
-        final Properties hibernateProperties = new Properties();
-//        hibernateProperties.setProperty("hibernate.hbm2ddl.auto", environment.getProperty("hibernate.hbm2ddl.auto"));
-        hibernateProperties.setProperty("hibernate.dialect", environment.getProperty("hibernate.dialect"));
-        return hibernateProperties;
-    }
+		final Properties hibernateProperties = new Properties();
+		// hibernateProperties.setProperty("hibernate.hbm2ddl.auto",
+		// environment.getProperty("hibernate.hbm2ddl.auto"));
+		hibernateProperties.setProperty("hibernate.dialect",
+				environment.getProperty("hibernate.dialect"));
+		return hibernateProperties;
+	}
 
 }
