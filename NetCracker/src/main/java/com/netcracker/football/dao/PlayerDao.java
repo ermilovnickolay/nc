@@ -3,19 +3,19 @@ package com.netcracker.football.dao;
 import java.util.List;
 
 import com.netcracker.football.entity.Player;
-import com.netcracker.football.entity.Team;
 
-public interface PlayerDao {
+public interface PlayerDao extends AbstractDao<String, Player> {
 
-	void addPlayer(Player player);
+	void create(Player player);
+
+	void update(Player player);
+
+	void delete(Player player);
+
+	Player getById(String id);
 
 	List<Player> getPlayers();
 
 	List<Player> get30Players();
-	
-	List<Player> getPlayerByTeam(String team);
-	
-	Player getPlayerById(String id);
-
 
 }

@@ -6,6 +6,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 /**
@@ -19,10 +20,7 @@ public class PlayerAttributes implements Serializable {
 	@Id
 	@GeneratedValue
 	private String Id;
-	@Column
-	private Integer overall;
-	@Column
-	private Integer number;
+
 	@Column
 	private Integer crossing;
 	@Column
@@ -90,26 +88,27 @@ public class PlayerAttributes implements Serializable {
 	@Column
 	private Integer gkreflexes;
 
+	@OneToOne(mappedBy = "playerAttributes")
+	private Player player;
+
 	public PlayerAttributes() {
 
 	}
 
-	public PlayerAttributes(String id, Integer overall, Integer number,
-			Integer crossing, Integer finishing, Integer headingAccuracy,
-			Integer shortPassing, Integer volleys, Integer dribbling,
-			Integer curve, Integer freeKickAccuracy, Integer longPassing,
-			Integer ballControl, Integer acceleration, Integer sprintSpeed,
-			Integer agility, Integer reactions, Integer balance,
-			Integer shotPower, Integer jumping, Integer stamina,
-			Integer strength, Integer longShots, Integer agression,
-			Integer interceptions, Integer positioning, Integer vision,
-			Integer penalties, Integer markin, Integer standingTackle,
-			Integer slidingTackle, Integer gkdiving, Integer gkhandling,
-			Integer gkkicking, Integer gkPositioning, Integer gkreflexes) {
+	public PlayerAttributes(String id, Integer crossing, Integer finishing,
+			Integer headingAccuracy, Integer shortPassing, Integer volleys,
+			Integer dribbling, Integer curve, Integer freeKickAccuracy,
+			Integer longPassing, Integer ballControl, Integer acceleration,
+			Integer sprintSpeed, Integer agility, Integer reactions,
+			Integer balance, Integer shotPower, Integer jumping,
+			Integer stamina, Integer strength, Integer longShots,
+			Integer agression, Integer interceptions, Integer positioning,
+			Integer vision, Integer penalties, Integer markin,
+			Integer standingTackle, Integer slidingTackle, Integer gkdiving,
+			Integer gkhandling, Integer gkkicking, Integer gkPositioning,
+			Integer gkreflexes) {
 		super();
 		Id = id;
-		this.overall = overall;
-		this.number = number;
 		this.crossing = crossing;
 		this.finishing = finishing;
 		this.headingAccuracy = headingAccuracy;
@@ -153,284 +152,276 @@ public class PlayerAttributes implements Serializable {
 		Id = id;
 	}
 
-	public int getOverall() {
-		return overall;
-	}
-
-	public void setOverall(Integer overall) {
-		this.overall = overall;
-	}
-
-	public int getNumber() {
-		return this.number;
-	}
-
-	public void setNumber(Integer number) {
-		this.number = number;
-	}
-
-	public int getCrossing() {
-		return this.crossing;
+	public Integer getCrossing() {
+		return crossing;
 	}
 
 	public void setCrossing(Integer crossing) {
 		this.crossing = crossing;
 	}
 
-	public int getFinishing() {
-		return this.finishing;
+	public Integer getFinishing() {
+		return finishing;
 	}
 
 	public void setFinishing(Integer finishing) {
 		this.finishing = finishing;
 	}
 
-	public int getHeadingAccuracy() {
-		return this.headingAccuracy;
+	public Integer getHeadingAccuracy() {
+		return headingAccuracy;
 	}
 
 	public void setHeadingAccuracy(Integer headingAccuracy) {
 		this.headingAccuracy = headingAccuracy;
 	}
 
-	public int getShortPassing() {
-		return this.shortPassing;
+	public Integer getShortPassing() {
+		return shortPassing;
 	}
 
 	public void setShortPassing(Integer shortPassing) {
 		this.shortPassing = shortPassing;
 	}
 
-	public int getVolleys() {
-		return this.volleys;
+	public Integer getVolleys() {
+		return volleys;
 	}
 
 	public void setVolleys(Integer volleys) {
 		this.volleys = volleys;
 	}
 
-	public int getDribbling() {
-		return this.dribbling;
+	public Integer getDribbling() {
+		return dribbling;
 	}
 
 	public void setDribbling(Integer dribbling) {
 		this.dribbling = dribbling;
 	}
 
-	public int getCurve() {
-		return this.curve;
+	public Integer getCurve() {
+		return curve;
 	}
 
 	public void setCurve(Integer curve) {
 		this.curve = curve;
 	}
 
-	public int getFreeKickAccuracy() {
-		return this.freeKickAccuracy;
+	public Integer getFreeKickAccuracy() {
+		return freeKickAccuracy;
 	}
 
 	public void setFreeKickAccuracy(Integer freeKickAccuracy) {
 		this.freeKickAccuracy = freeKickAccuracy;
 	}
 
-	public int getLongPassing() {
-		return this.longPassing;
+	public Integer getLongPassing() {
+		return longPassing;
 	}
 
 	public void setLongPassing(Integer longPassing) {
 		this.longPassing = longPassing;
 	}
 
-	public int getBallControl() {
-		return this.ballControl;
+	public Integer getBallControl() {
+		return ballControl;
 	}
 
 	public void setBallControl(Integer ballControl) {
 		this.ballControl = ballControl;
 	}
 
-	public int getAcceleration() {
-		return this.acceleration;
+	public Integer getAcceleration() {
+		return acceleration;
 	}
 
 	public void setAcceleration(Integer acceleration) {
 		this.acceleration = acceleration;
 	}
 
-	public int getSprintSpeed() {
-		return this.sprintSpeed;
+	public Integer getSprintSpeed() {
+		return sprintSpeed;
 	}
 
 	public void setSprintSpeed(Integer sprintSpeed) {
 		this.sprintSpeed = sprintSpeed;
 	}
 
-	public int getAgility() {
-		return this.agility;
+	public Integer getAgility() {
+		return agility;
 	}
 
 	public void setAgility(Integer agility) {
 		this.agility = agility;
 	}
 
-	public int getReactions() {
-		return this.reactions;
+	public Integer getReactions() {
+		return reactions;
 	}
 
 	public void setReactions(Integer reactions) {
 		this.reactions = reactions;
 	}
 
-	public int getBalance() {
-		return this.balance;
+	public Integer getBalance() {
+		return balance;
 	}
 
 	public void setBalance(Integer balance) {
 		this.balance = balance;
 	}
 
-	public int getShotPower() {
-		return this.shotPower;
+	public Integer getShotPower() {
+		return shotPower;
 	}
 
 	public void setShotPower(Integer shotPower) {
 		this.shotPower = shotPower;
 	}
 
-	public int getJumping() {
-		return this.jumping;
+	public Integer getJumping() {
+		return jumping;
 	}
 
 	public void setJumping(Integer jumping) {
 		this.jumping = jumping;
 	}
 
-	public int getStamina() {
-		return this.stamina;
+	public Integer getStamina() {
+		return stamina;
 	}
 
 	public void setStamina(Integer stamina) {
 		this.stamina = stamina;
 	}
 
-	public int getStrength() {
-		return this.strength;
+	public Integer getStrength() {
+		return strength;
 	}
 
 	public void setStrength(Integer strength) {
 		this.strength = strength;
 	}
 
-	public int getLongShots() {
-		return this.longShots;
+	public Integer getLongShots() {
+		return longShots;
 	}
 
 	public void setLongShots(Integer longShots) {
 		this.longShots = longShots;
 	}
 
-	public int getAgression() {
-		return this.agression;
+	public Integer getAgression() {
+		return agression;
 	}
 
 	public void setAgression(Integer agression) {
 		this.agression = agression;
 	}
 
-	public int getInterceptions() {
-		return this.interceptions;
+	public Integer getInterceptions() {
+		return interceptions;
 	}
 
 	public void setInterceptions(Integer interceptions) {
 		this.interceptions = interceptions;
 	}
 
-	public int getPositioning() {
-		return this.positioning;
+	public Integer getPositioning() {
+		return positioning;
 	}
 
 	public void setPositioning(Integer positioning) {
 		this.positioning = positioning;
 	}
 
-	public int getVision() {
-		return this.vision;
+	public Integer getVision() {
+		return vision;
 	}
 
 	public void setVision(Integer vision) {
 		this.vision = vision;
 	}
 
-	public int getPenalties() {
-		return this.penalties;
+	public Integer getPenalties() {
+		return penalties;
 	}
 
 	public void setPenalties(Integer penalties) {
 		this.penalties = penalties;
 	}
 
-	public int getMarkin() {
-		return this.markin;
+	public Integer getMarkin() {
+		return markin;
 	}
 
 	public void setMarkin(Integer markin) {
 		this.markin = markin;
 	}
 
-	public int getStandingTackle() {
-		return this.standingTackle;
+	public Integer getStandingTackle() {
+		return standingTackle;
 	}
 
 	public void setStandingTackle(Integer standingTackle) {
 		this.standingTackle = standingTackle;
 	}
 
-	public int getSlidingTackle() {
-		return this.slidingTackle;
+	public Integer getSlidingTackle() {
+		return slidingTackle;
 	}
 
 	public void setSlidingTackle(Integer slidingTackle) {
 		this.slidingTackle = slidingTackle;
 	}
 
-	public int getGKdiving() {
-		return this.gkdiving;
+	public Integer getGkdiving() {
+		return gkdiving;
 	}
 
-	public void setGKdiving(Integer gKdiving) {
-		this.gkdiving = gKdiving;
+	public void setGkdiving(Integer gkdiving) {
+		this.gkdiving = gkdiving;
 	}
 
-	public int getGKhandling() {
-		return this.gkhandling;
+	public Integer getGkhandling() {
+		return gkhandling;
 	}
 
-	public void setGKhandling(Integer gKhandling) {
-		this.gkhandling = gKhandling;
+	public void setGkhandling(Integer gkhandling) {
+		this.gkhandling = gkhandling;
 	}
 
-	public int getGKkicking() {
-		return this.gkkicking;
+	public Integer getGkkicking() {
+		return gkkicking;
 	}
 
-	public void setGKkicking(Integer gKkicking) {
-		this.gkkicking = gKkicking;
+	public void setGkkicking(Integer gkkicking) {
+		this.gkkicking = gkkicking;
 	}
 
-	public int getGKPositioning() {
-		return this.gkPositioning;
+	public Integer getGkPositioning() {
+		return gkPositioning;
 	}
 
-	public void setGKPositioning(Integer gKPositioning) {
-		this.gkPositioning = gKPositioning;
+	public void setGkPositioning(Integer gkPositioning) {
+		this.gkPositioning = gkPositioning;
 	}
 
-	public int getGKreflexes() {
-		return this.gkreflexes;
+	public Integer getGkreflexes() {
+		return gkreflexes;
 	}
 
-	public void setGKreflexes(Integer gKreflexes) {
-		this.gkreflexes = gKreflexes;
+	public void setGkreflexes(Integer gkreflexes) {
+		this.gkreflexes = gkreflexes;
+	}
+
+	public Player getPlayer() {
+		return player;
+	}
+
+	public void setPlayer(Player player) {
+		this.player = player;
 	}
 
 }

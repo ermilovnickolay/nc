@@ -60,12 +60,6 @@ public class TeamBean {
 		return "viewTeam?faces-redirect=true";
 	}
 
-	public String viewTeamByName() {
-		this.team = teamService.getTeamByName(team.getName());
-		players = playerService.getPlayerByTeam(team.getName());
-		return "viewTeam?faces-redirect=true";
-	}
-
 	@PostConstruct
 	private void init() {
 		teams = teamService.get30Teams();

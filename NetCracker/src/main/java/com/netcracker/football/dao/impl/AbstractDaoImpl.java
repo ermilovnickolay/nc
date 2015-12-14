@@ -1,4 +1,4 @@
-package com.netcracker.football.dao;
+package com.netcracker.football.dao.impl;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
@@ -10,6 +10,8 @@ import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
+import com.netcracker.football.dao.AbstractDao;
 
 public abstract class AbstractDaoImpl<PK extends Serializable, T> implements
 		AbstractDao<PK, T> {

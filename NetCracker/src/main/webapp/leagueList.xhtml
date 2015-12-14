@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title></title>
+</h:head>
+
+<h:body>
+	<h:form>
+		<p:dataTable var="league" value="#{leagueBean.leagues}">
+			<p:column headerText="League">
+				<h:commandLink id="viewleague" action="#{leagueBean.viewLeague}">
+					<h:outputText value="#{league.name}" />
+					<f:setPropertyActionListener value="#{league.id}"
+						target="#{leagueBean.league.id}" />
+				</h:commandLink>
+			</p:column>			
+		</p:dataTable>
+	</h:form>
+
+</h:body>
+
+</html>

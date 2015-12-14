@@ -1,6 +1,8 @@
-package com.netcracker.football.service;
+package com.netcracker.football.service.Impl;
 
 import org.springframework.stereotype.Service;
+
+import com.netcracker.football.service.FirstService;
 
 @Service("firstService")
 public class FirstServiceImpl implements FirstService {

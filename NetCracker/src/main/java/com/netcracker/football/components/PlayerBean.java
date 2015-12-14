@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.netcracker.football.entity.Player;
+import com.netcracker.football.entity.PlayerAttributes;
 import com.netcracker.football.service.PlayerService;
-
 
 @Component(value = "playerBean")
 @RequestScoped
@@ -20,8 +20,9 @@ public class PlayerBean {
 	@Autowired
 	private PlayerService playerService;
 
-	private List<Player> players = new ArrayList<Player>();
-	
+	List<Player> players = new ArrayList<Player>();
+	PlayerAttributes attributes = new PlayerAttributes();
+
 	Player player = new Player();
 
 	public List<Player> getPlayers() {
@@ -39,9 +40,18 @@ public class PlayerBean {
 	public void setPlayer(Player player) {
 		this.player = player;
 	}
-	
+
+	public PlayerAttributes getAttributes() {
+		return attributes;
+	}
+
+	public void setAttributes(PlayerAttributes attributes) {
+		this.attributes = attributes;
+	}
+
 	public String viewPlayer() {
 		this.player = playerService.getPlayerById(player.getId());
+		attributes = player.getPlayerAttributes();
 		return "viewPlayer?faces-redirect=true";
 	}
 

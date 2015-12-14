@@ -13,6 +13,5 @@ public interface TeamService {
 	public List<Team> get30Teams();
 
 	public Team getTeamById(String id);
-	
-	public Team getTeamByName(String name);
+
 }

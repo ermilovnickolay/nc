@@ -9,6 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
+import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
 @Entity
@@ -50,8 +51,8 @@ public class Player implements Serializable {
 	@JoinColumn(name = "COUNTRY_ID", nullable = false)
 	private Country country;
 
-	@OneToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "ATRIBUTE_ID", nullable = false)
+	@OneToOne
+	@PrimaryKeyJoinColumn
 	private PlayerAttributes playerAttributes;
 
 	public Player() {

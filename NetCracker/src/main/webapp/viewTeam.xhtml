@@ -40,6 +40,18 @@
 					</p:row>
 					<p:row>
 						<p:column>
+							League
+						</p:column>
+						<p:column>
+							<h:commandLink id="viewleague" action="#{leagueBean.viewLeague}">
+								<h:outputText value="#{team.league.name}" />
+								<f:setPropertyActionListener value="#{team.league.id}"
+									target="#{leagueBean.league.id}" />
+							</h:commandLink>
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
 							Stadium
 						</p:column>
 						<p:column>

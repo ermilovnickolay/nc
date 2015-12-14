@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title></title>
+</h:head>
+
+<h:body>
+	<h:outputLink value="leagueList.xhtml">Show Leagues</h:outputLink>
+
+	<h:form id="leagueBeanForm">
+		<br />
+		<p:dataTable var="league" value="#{leagueBean.league}">
+			<f:facet name="header">
+				<h:outputText value="View League"></h:outputText>
+			</f:facet>
+
+			<p:column>
+				<p:panelGrid>
+					<p:row>
+						<p:column>
+							Name
+						</p:column>
+						<p:column>
+							<h:outputText value="#{league.name}" />
+						</p:column>
+					</p:row>					
+				</p:panelGrid>
+			</p:column>
+		</p:dataTable>
+
+
+		<p:dataTable var="team" value="#{leagueBean.teams}">
+			<f:facet name="header">
+				<h:outputText value="Teams in League"></h:outputText>
+			</f:facet>
+
+			<p:column>
+				<p:panelGrid>
+					<p:row>
+						<p:column>
+							Name
+						</p:column>
+						<p:column>
+							<h:commandLink id="viewteam" action="#{teamBean.viewTeam}">
+								<h:outputText value="#{team.name}" />
+								<f:setPropertyActionListener value="#{team.id}"
+									target="#{teamBean.team.id}" />
+							</h:commandLink>
+						</p:column>
+					</p:row>					
+				</p:panelGrid>
+			</p:column>
+		</p:dataTable>
+
+	</h:form>
+
+</h:body>
+
+</html>

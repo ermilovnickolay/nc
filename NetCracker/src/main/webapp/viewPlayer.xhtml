@@ -27,7 +27,7 @@
 							Photo
 						</p:column>
 						<p:column>
-							<p:graphicImage value="#{player.image}" />						
+							<p:graphicImage value="#{player.image}" />
 						</p:column>
 					</p:row>
 					<p:row>
@@ -102,6 +102,284 @@
 				</p:panelGrid>
 			</p:column>
 		</p:dataTable>
+
+		<br />
+		<p:dataTable var="attribut" value="#{playerBean.attributes}">
+			<f:facet name="header">
+				<h:outputText value="Player Atributes"></h:outputText>
+			</f:facet>
+
+			<p:column>
+				<p:panelGrid>
+					<p:row>
+						<p:column>
+							Crossing
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.crossing}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Finishing
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.finishing}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Heading Accuracy
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.headingAccuracy}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Short Passing
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.shortPassing}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Volleys
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.volleys}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Dribbling
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.dribbling}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Curve
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.curve}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Free Kick Accuracy
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.freeKickAccuracy}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Long Passing
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.longPassing}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Ball Control
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.ballControl}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Acceleration
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.acceleration}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Sprint Speed
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.sprintSpeed}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Agility
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.agility}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Reactions
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.reactions}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Balance
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.balance}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Shot Power
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.shotPower}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Jumping
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.jumping}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Stamina
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.stamina}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Strength
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.strength}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							LongShots
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.longShots}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Agression
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.agression}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Interceptions
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.interceptions}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Positioning
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.positioning}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Vision
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.vision}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Penalties
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.penalties}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Markin
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.markin}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Standing Tackle
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.standingTackle}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							Sliding Tackle
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.slidingTackle}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							GK Diving
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.gkdiving}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							GK Handling
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.gkhandling}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							GK Kicking
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.gkkicking}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							GK Positioning
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.gkPositioning}" />
+						</p:column>
+					</p:row>
+					<p:row>
+						<p:column>
+							GK Reflexes
+						</p:column>
+						<p:column>
+							<h:outputText value="#{attribut.gkreflexes}" />
+						</p:column>
+					</p:row>
+
+				</p:panelGrid>
+			</p:column>
+		</p:dataTable>
+
 
 
 	</h:form>
