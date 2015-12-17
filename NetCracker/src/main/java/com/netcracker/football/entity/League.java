@@ -13,9 +13,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- * Created by Dark Knight on 07.12.2015.
- */
 @Entity
 @Table(name = "league")
 public class League implements Serializable {

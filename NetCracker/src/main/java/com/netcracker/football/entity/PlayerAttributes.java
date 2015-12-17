@@ -9,9 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-/**
- * Created by Dark Knight on 07.12.2015.
- */
 @Entity
 @Table(name = "player_attributes")
 public class PlayerAttributes implements Serializable {

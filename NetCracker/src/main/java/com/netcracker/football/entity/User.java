@@ -14,19 +14,16 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-/**
- * Created by Dark Knight on 07.12.2015.
- */
 @Entity
-@Table(name = "user_")
+@Table(name = "users")
 public class User implements Serializable {
 
 	private static final long serialVersionUID = -1871638793715573225L;
 
 	@Id
 	@GeneratedValue(strategy = IDENTITY)
-	@Column(unique = true)
-	private String id;
+	@Column(name = "ID", unique = true)
+	private Long id;
 	@Column(name = "NAME", length = 100)
 	private String name;
 	@Column(name = "SURNAME", length = 100)
@@ -56,7 +53,7 @@ public class User implements Serializable {
 		super();
 	}
 
-	public User(String id, String name, String surname, Date birthdate,
+	public User(Long id, String name, String surname, Date birthdate,
 			String sex, String secretQuestion, String secretAnswer,
 			Country country, Role role, String email, String password,
 			String language) {
@@ -75,11 +72,11 @@ public class User implements Serializable {
 		this.language = language;
 	}
 
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 

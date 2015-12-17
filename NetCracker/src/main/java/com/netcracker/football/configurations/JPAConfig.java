@@ -61,8 +61,8 @@ public class JPAConfig {
 
 	final Properties additionalProperties() {
 		final Properties hibernateProperties = new Properties();
-		// hibernateProperties.setProperty("hibernate.hbm2ddl.auto",
-		// environment.getProperty("hibernate.hbm2ddl.auto"));
+		hibernateProperties.setProperty("hibernate.hbm2ddl.auto",
+				environment.getProperty("hibernate.hbm2ddl.auto"));
 		hibernateProperties.setProperty("hibernate.dialect",
 				environment.getProperty("hibernate.dialect"));
 		return hibernateProperties;
